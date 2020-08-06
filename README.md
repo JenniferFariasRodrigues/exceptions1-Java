@@ -6,6 +6,7 @@ novamente a reserva com os dados atualizados. O programa não deve aceitar dados
 inválidos para a reserva, conforme as seguintes regras:
 - Alterações de reserva só podem ocorrer para datas futuras
 - A data de saída deve ser maior que a data de entrada
+
 Realizada 3 formas de resolução:
 
 • Solução 1 (muito ruim): lógica de validação no programa principal
