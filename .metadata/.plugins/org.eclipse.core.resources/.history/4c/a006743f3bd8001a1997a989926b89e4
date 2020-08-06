@@ -46,7 +46,7 @@ public class Reservation {
 		return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
 	}
 
-//	SOLUCAO 2
+	
 	public String updateDates(Date checkIn, Date checkOut) {
 
 		Date now = new Date();
@@ -58,7 +58,6 @@ public class Reservation {
 		}
 		this.checkIn = checkIn;
 		this.checkOut = checkOut;
-		//Nao apresentou erro
 		return null;
 	}
 	
