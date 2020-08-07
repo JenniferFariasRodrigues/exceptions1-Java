@@ -36,6 +36,12 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
+		System.out.print("Room number: ");
+//		int number = sc.nextInt();
+//		System.out.print("Check-in date (dd/MM/yyyy): ");
+//		Date checkIn = sdf.parse(sc.next());
+//		System.out.print("Check-out date (dd/MM/yyyy): ");
+//		Date checkOut = sdf.parse(sc.next());
 
 //		SOLUCAO3 
 		try {
@@ -64,12 +70,11 @@ public class Program {
 			
 		}
 		
-		//Trata o erro com a excecao criada
 		catch(DomainException e) {
 //			getMessage=mensagem passada na excecao do reservation
 			System.out.println("Error in reservation: "+e.getMessage());
 		}
-//		RuntimeException generico Para programa nao quebrar com possivel outro erro.
+		
 		catch (RuntimeException e) {
 			System.out.println("Unexpected error");
 		}
